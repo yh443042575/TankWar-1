@@ -5,7 +5,7 @@ import javax.microedition.lcdui.game.Sprite;
 
 import com.game.Const;
 
-//ÀÏ¼ÒµÄ¾«Áé
+//è€å®¶çš„ç²¾çµ
 public class Home extends Sprite
 {
 	private Image imgexplosion;
@@ -29,7 +29,7 @@ public class Home extends Sprite
 		beingexplosed = true;
 	}
 	
-	//±¬Õ¨µÄÇé¿ö£¬·Ö4Ö¡
+	//çˆ†ç‚¸çš„æƒ…å†µï¼Œåˆ†4å¸§
 	public boolean doExplosed()
 	{
 		if(explosioncount == 0)
@@ -45,6 +45,7 @@ public class Home extends Sprite
 			}
 			return true;
 		}
+		System.out.println("Test01");
 		
 		return true;
 	}
